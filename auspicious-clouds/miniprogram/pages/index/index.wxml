@@ -1,0 +1,25 @@
+
+<view class="container">
+	<image class="title" src="../../images/logo.png"></image>
+	<view class="title-name">xiangyunzhifei</view>
+	<view class="content">
+
+		<view class="hd" style="transform:rotateZ({{angle}}deg);">
+
+			<!-- <image class="logo" src="{{userInfo.avatarUrl}}"></image> -->
+      	<open-data class="logo" type="userAvatarUrl"></open-data>
+        	<open-data class="name" type="userNickName"></open-data>
+			<image class="wave" src="../../images/wave.png" mode="aspectFill"></image>
+			<image class="wave wave-bg" src="../../images/wave.png" mode="aspectFill"></image>
+		</view>
+		<view class="bd">
+			<view>
+				<view class="confirm-btn" bindtap='goSign'>
+					<text >立即进入</text>
+				</view>
+				<!-- <button class="confirm-btn"  open-type="getUserInfo" bindgetuserinfo="bindgetuserinfo" wx:else>点击授权</button> -->
+			</view>
+			<text class="copyright">© 2018 Mamba 倾情出品 </text>
+		</view>
+	</view>
+</view>

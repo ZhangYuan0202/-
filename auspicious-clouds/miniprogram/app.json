@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/home/home",
+    "pages/my/my",
+    "pages/questionCenter/questionCenter"
+  ],
+  "window": {
+    "backgroundColor": "#1296DB",
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#1296DB",
+    "navigationBarTitleText": "祥云智飞",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color":"#bfbfbf",
+    "selectedColor":"#1296DB",
+    "list": [
+      {
+        "text": "主页",
+        "pagePath": "pages/home/home",
+        "iconPath": "/images/home.png",
+        "selectedIconPath":"/images/a-home.png"
+      },
+      {
+        "text": "社区",
+        "pagePath": "pages/questionCenter/questionCenter",
+        "iconPath": "/images/clouds.png",
+        "selectedIconPath":"/images/a-clouds.png"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/my/my",
+        "iconPath": "/images/my.png",
+        "selectedIconPath":"/images/a-my.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}
